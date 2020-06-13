@@ -42,6 +42,7 @@ public class Interfaz extends JFrame implements ActionListener{
         Pelicula siete = new Pelicula("Dolittle", "Stephen Gaghan", 2020, "En el camino,\nsu coraje y agudeza...");
         Pelicula ocho = new Pelicula("brahms", "William Brent Bell", 2020, "Este nuevo capítulo\nde la saga...");
         Pelicula nueve = new Pelicula("Terminator", "NA", 2019, "La ultima entrega de\nla saga...");
+        Pelicula diez = new Pelicula("El paseo", "Dario", 2012, "Promocion disponible");
         
         //Instanciando la lista
         ArrayList lista = new ArrayList();
@@ -55,6 +56,7 @@ public class Interfaz extends JFrame implements ActionListener{
         lista.add(siete);
         lista.add(ocho);
         lista.add(nueve);
+        lista.add(diez);
 
         Interfaz inter = new Interfaz(lista);
     }
