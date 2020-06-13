@@ -152,9 +152,9 @@ public class Interfaz extends JFrame implements ActionListener{
                         Iterator it = listaP.iterator();
                 while ( it.hasNext() ) { 
                     Pelicula objeto = (Pelicula)it.next(); 
-                    System.out.println("Accediendo a la cartelera"); 
                     cartelera+="\n"+objeto.getNombre();
                 } 
+                System.out.println("Accediendo a la cartelera"); 
                 JOptionPane.showMessageDialog(null, cartelera);
                 ;break;
             case "buscar en lista":
